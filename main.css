@@ -1,9 +1,11 @@
+*{box-sizing: border-box;}
 body{
     margin: 0%;
 }
 .container{
     margin-left: 5%;
     margin-top: 2%;
+    
 }
 .head-content{
     display: flex;
@@ -151,13 +153,14 @@ font-weight: 800;
 }
 
 .block-contact{
-    display: grid;
-    grid-column: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
     margin-top: 5%;
     margin-bottom: 10%;
+    padding-right: 5%;
 }
 .number-phone{
-    grid-column: 1/span 1;
+   
     align-items: center;
     background-color: #E5E5E5;
     width: 440px;
@@ -178,7 +181,7 @@ font-weight: 800;
     font-weight: 700;   
 }
 .location{
-    grid-column: 2/span 1;
+   
     background-color: #E5E5E5;
     width: 440px;
     font-weight: 700;
@@ -199,7 +202,7 @@ font-weight: 800;
     font-weight: 700;
 }
 .email{
-    grid-column: 3/span 1;
+  
     background-color: #E5E5E5;
     width: 440px;
     font-weight: 700;
