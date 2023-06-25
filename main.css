@@ -341,6 +341,11 @@ a:hover {
         justify-content: center;
     }
 
+    .second-img {
+        display: flex;
+        align-items: center;
+    }
+
     .txt-details-block {
         font-size: 35px;
     }
@@ -381,5 +386,48 @@ a:hover {
 
     .txt-details-block {
         font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .first-block {
+        min-height: 400px;
+    }
+
+    .container * {
+        font-size: 14px;
+    }
+
+    .first-block-txt p {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .first-service,
+    .second-service {
+        font-size: 12px;
+    }
+
+    .first-block img {
+        max-width: 150px;
+    }
+
+    .block-contact {
+        justify-content: center;
+    }
+
+    .card {
+        flex: 0.5;
+        padding: 30px 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .txt-details-block {
+        word-wrap: break-word;
+    }
+
+    .first-block img {
+        max-width: 120px;
     }
 }
